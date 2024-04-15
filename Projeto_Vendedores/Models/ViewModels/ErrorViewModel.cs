@@ -1,4 +1,4 @@
-namespace Projeto_Vendedores.Models
+namespace Projeto_Vendedores.Models.ViewModels
 {
     public class ErrorViewModel
     {
