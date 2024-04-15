@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Projeto_Vendedores/1.0.0": {
+        "runtime": {
+          "Projeto_Vendedores.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Projeto_Vendedores/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
