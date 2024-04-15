@@ -28,3 +28,4 @@ C:\Users\spook\OneDrive\Documentos\VisualStudioProjects\Projeto Web\Projeto_Vend
 C:\Users\spook\OneDrive\Documentos\VisualStudioProjects\Projeto Web\Projeto_Vendedores\Projeto_Vendedores\obj\Debug\net8.0\Projeto_Vendedores.pdb
 C:\Users\spook\OneDrive\Documentos\VisualStudioProjects\Projeto Web\Projeto_Vendedores\Projeto_Vendedores\obj\Debug\net8.0\Projeto_Vendedores.genruntimeconfig.cache
 C:\Users\spook\OneDrive\Documentos\VisualStudioProjects\Projeto Web\Projeto_Vendedores\Projeto_Vendedores\obj\Debug\net8.0\ref\Projeto_Vendedores.dll
+C:\Users\spook\OneDrive\Documentos\VisualStudioProjects\Projeto Web\Projeto_Vendedores\Projeto_Vendedores\obj\Debug\net8.0\Projeto_Vendedores.sourcelink.json
