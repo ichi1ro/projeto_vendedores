@@ -53,6 +53,10 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
+      "Id": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-pulse.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-pulse.min.css"
+    },
+    {
       "Id": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },

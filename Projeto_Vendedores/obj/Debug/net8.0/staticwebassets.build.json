@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VgT2NgCPiumwHgmfDhLIjMZEby8ft+UgevLIqz+0F6k=",
+  "Hash": "2Vu85jEqe8PcxTP4fP0R0CrGgDlPJJED5J2lkKoOZ7M=",
   "Source": "Projeto_Vendedores",
   "BasePath": "_content/Projeto_Vendedores",
   "Mode": "Default",
@@ -414,6 +414,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-pulse.min.css",
+      "SourceId": "Projeto_Vendedores",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\wwwroot\\",
+      "BasePath": "_content/Projeto_Vendedores",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-pulse.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-pulse.min.css"
     },
     {
       "Identity": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",

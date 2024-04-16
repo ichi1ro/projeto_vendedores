@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9FAB5C63-9A68-4A5C-89BE-52DF9BF411E8}|Projeto_Vendedores\\Projeto_Vendedores.csproj|c:\\users\\spook\\onedrive\\documentos\\visualstudioprojects\\projeto web\\projeto_vendedores\\projeto_vendedores\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FAB5C63-9A68-4A5C-89BE-52DF9BF411E8}|Projeto_Vendedores\\Projeto_Vendedores.csproj|solutionrelative:projeto_vendedores\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9FAB5C63-9A68-4A5C-89BE-52DF9BF411E8}|Projeto_Vendedores\\Projeto_Vendedores.csproj|c:\\users\\spook\\onedrive\\documentos\\visualstudioprojects\\projeto web\\projeto_vendedores\\projeto_vendedores\\migrations\\20240416170329_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FAB5C63-9A68-4A5C-89BE-52DF9BF411E8}|Projeto_Vendedores\\Projeto_Vendedores.csproj|solutionrelative:projeto_vendedores\\migrations\\20240416170329_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,6 +39,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Projeto_Vendedores\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Views\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "Projeto_Vendedores\\Views\\Shared\\_Layout.cshtml*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T17:26:26.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "20240416170329_Initial.cs",
               "DocumentMoniker": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Migrations\\20240416170329_Initial.cs",
               "RelativeDocumentMoniker": "Projeto_Vendedores\\Migrations\\20240416170329_Initial.cs",
@@ -47,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Department.cs",
               "DocumentMoniker": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Models\\Department.cs",
               "RelativeDocumentMoniker": "Projeto_Vendedores\\Models\\Department.cs",
@@ -60,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\appsettings.json",
               "RelativeDocumentMoniker": "Projeto_Vendedores\\appsettings.json",
@@ -73,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DepartmentsController.cs",
               "DocumentMoniker": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Controllers\\DepartmentsController.cs",
               "RelativeDocumentMoniker": "Projeto_Vendedores\\Controllers\\DepartmentsController.cs",
