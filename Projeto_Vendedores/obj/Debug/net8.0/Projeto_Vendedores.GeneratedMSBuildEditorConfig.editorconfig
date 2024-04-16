@@ -26,6 +26,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\spook\OneDrive\Documentos\VisualStudioProjects\Projeto Web\Projeto_Vendedores\Projeto_Vendedores
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/Projeto_Vendedores/Projeto_Vendedores/Views/Departments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/Projeto_Vendedores/Projeto_Vendedores/Views/Departments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/Projeto_Vendedores/Projeto_Vendedores/Views/Departments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/Projeto_Vendedores/Projeto_Vendedores/Views/Departments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/Projeto_Vendedores/Projeto_Vendedores/Views/Departments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/Projeto_Vendedores/Projeto_Vendedores/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

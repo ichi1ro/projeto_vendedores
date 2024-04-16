@@ -224,3 +224,9 @@ C:\Users\spook\OneDrive\Documentos\VisualStudioProjects\Projeto Web\Projeto_Vend
 C:\Users\spook\OneDrive\Documentos\VisualStudioProjects\Projeto Web\Projeto_Vendedores\Projeto_Vendedores\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\spook\OneDrive\Documentos\VisualStudioProjects\Projeto Web\Projeto_Vendedores\Projeto_Vendedores\obj\Debug\net8.0\Projeto_Vendedores.csproj.AssemblyReference.cache
 C:\Users\spook\OneDrive\Documentos\VisualStudioProjects\Projeto Web\Projeto_Vendedores\Projeto_Vendedores\obj\Debug\net8.0\Projeto_.184DEE0A.Up2Date
+C:\Users\spook\OneDrive\Documentos\VisualStudioProjects\Projeto Web\Projeto_Vendedores\Projeto_Vendedores\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\spook\OneDrive\Documentos\VisualStudioProjects\Projeto Web\Projeto_Vendedores\Projeto_Vendedores\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\spook\OneDrive\Documentos\VisualStudioProjects\Projeto Web\Projeto_Vendedores\Projeto_Vendedores\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\spook\OneDrive\Documentos\VisualStudioProjects\Projeto Web\Projeto_Vendedores\Projeto_Vendedores\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\spook\OneDrive\Documentos\VisualStudioProjects\Projeto Web\Projeto_Vendedores\Projeto_Vendedores\bin\Debug\net8.0\Npgsql.dll
+C:\Users\spook\OneDrive\Documentos\VisualStudioProjects\Projeto Web\Projeto_Vendedores\Projeto_Vendedores\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

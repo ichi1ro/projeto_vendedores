@@ -1,3 +1,6 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Projeto_Vendedores.Data;
 namespace Projeto_Vendedores
 {
     public class Program
@@ -5,6 +8,8 @@ namespace Projeto_Vendedores
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            builder.Services.AddDbContext<Projeto_VendedoresContext>(options =>
+                options.UseNpgsql(builder.Configuration.GetConnectionString("Projeto_VendedoresContext") ?? throw new InvalidOperationException("Connection string 'Projeto_VendedoresContext' not found.")));
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
