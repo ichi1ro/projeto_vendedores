@@ -10,6 +10,7 @@ namespace Projeto_Vendedores
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddDbContext<Projeto_VendedoresContext>(options =>
                 options.UseNpgsql(builder.Configuration.GetConnectionString("Projeto_VendedoresContext") ?? throw new InvalidOperationException("Connection string 'Projeto_VendedoresContext' not found.")));
+            //If whatever is to the left is not null, use that, otherwise use what's to the right. (?? operator)
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();

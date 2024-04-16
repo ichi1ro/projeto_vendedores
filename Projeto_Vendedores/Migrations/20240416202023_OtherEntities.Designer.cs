@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using Projeto_Vendedores.Data;
@@ -11,9 +12,11 @@ using Projeto_Vendedores.Data;
 namespace Projeto_Vendedores.Migrations
 {
     [DbContext(typeof(Projeto_VendedoresContext))]
-    partial class Projeto_VendedoresContextModelSnapshot : ModelSnapshot
+    [Migration("20240416202023_OtherEntities")]
+    partial class OtherEntities
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

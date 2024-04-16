@@ -14,6 +14,12 @@ namespace Projeto_Vendedores.Data
         {
         }
 
-        public DbSet<Projeto_Vendedores.Models.Department> Department { get; set; } = default!;
+        public DbSet<Department> Department { get; set; } = default!;
+        public DbSet<Seller> Seller { get; set; } = default!;
+        public DbSet<SalesRecord> SalesRecord { get; set; } = default!;
+        //This would be the null forgiving operator (!).
+        //It tells the compiler "this isn't null, trust me", so it does not issue a warning for a possible null reference.
+
+
     }
 }
