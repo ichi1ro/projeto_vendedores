@@ -17,6 +17,7 @@ namespace Projeto_Vendedores
             // Add services to the container.
             builder.Services.AddControllersWithViews();
             builder.Services.AddScoped<SeedingService>();
+            builder.Services.AddScoped<SellerService>();
 
             var app = builder.Build();
             SeedDatabase();

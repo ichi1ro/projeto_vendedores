@@ -5,7 +5,7 @@ namespace Projeto_Vendedores.Services
 {
     public class SeedingService : ISeedingService
     {
-        private Projeto_VendedoresContext _context;
+        private readonly Projeto_VendedoresContext _context;
         public SeedingService(Projeto_VendedoresContext context)
         {
             _context = context;

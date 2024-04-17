@@ -6,7 +6,7 @@
         public string Name { get; set; }
         public string Email { get; set; }
         public double BaseSalary { get; set; }
-        public DateTime BirhtDate { get; set; }
+        public DateTime BirthDate { get; set; }
         public Department Department { get; set; }
         public ICollection<SalesRecord> Sales { get; set; } = new List<SalesRecord>();
 
@@ -19,7 +19,7 @@
             Name = name;
             Email = email;
             BaseSalary = baseSalary;
-            BirhtDate = birhtDate;
+            BirthDate = birhtDate;
             Department = department;
         }
         public void AddSales(SalesRecord sr)
