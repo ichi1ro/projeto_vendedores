@@ -12,6 +12,7 @@ namespace Projeto_Vendedores.Data
         public Projeto_VendedoresContext (DbContextOptions<Projeto_VendedoresContext> options)
             : base(options)
         {
+            AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
         }
 
         public DbSet<Department> Department { get; set; } = default!;

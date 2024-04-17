@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using Projeto_Vendedores.Data;
 using Projeto_Vendedores.Services;
 namespace Projeto_Vendedores
