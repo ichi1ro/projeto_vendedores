@@ -1,6 +1,6 @@
 ﻿using Projeto_Vendedores.Models;
 
-namespace Projeto_Vendedores.Services
+namespace Projeto_Vendedores.Interfaces
 {
     public interface ISellerService
     {

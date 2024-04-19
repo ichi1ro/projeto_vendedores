@@ -1,6 +1,7 @@
 ﻿using Projeto_Vendedores.Data;
 using Projeto_Vendedores.Models.Enums;
 using Projeto_Vendedores.Models;
+using Projeto_Vendedores.Interfaces;
 namespace Projeto_Vendedores.Services
 {
     public class SeedingService : ISeedingService

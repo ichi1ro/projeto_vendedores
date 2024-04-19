@@ -1,4 +1,5 @@
 ﻿using Projeto_Vendedores.Data;
+using Projeto_Vendedores.Interfaces;
 using Projeto_Vendedores.Models;
 
 namespace Projeto_Vendedores.Services

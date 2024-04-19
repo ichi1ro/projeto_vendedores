@@ -1,4 +1,6 @@
-﻿namespace Projeto_Vendedores.Models
+﻿using Projeto_Vendedores.Migrations;
+
+namespace Projeto_Vendedores.Models
 {
     public class Seller
     {
@@ -7,7 +9,8 @@
         public string Email { get; set; }
         public double BaseSalary { get; set; }
         public DateTime BirthDate { get; set; }
-        public Department? Department { get; set; } = null; //dps acho q da pra tirar sepa
+        public Department Department { get; set; }
+        public int DepartmentId { get; set; }
         public ICollection<SalesRecord> Sales { get; set; } = new List<SalesRecord>();
 
         public Seller()
