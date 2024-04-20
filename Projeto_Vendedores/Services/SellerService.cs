@@ -1,4 +1,5 @@
-﻿using Projeto_Vendedores.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using Projeto_Vendedores.Data;
 using Projeto_Vendedores.Interfaces;
 using Projeto_Vendedores.Models;
 
@@ -24,7 +25,7 @@ namespace Projeto_Vendedores.Services
 
         public Seller FindById(int id)
         {
-            return _context.Seller.FirstOrDefault(s => s.Id == id);
+            return _context.Seller.Include(s => s.Department).FirstOrDefault(s => s.Id == id);
         }
 
         public void Remove(int id)
