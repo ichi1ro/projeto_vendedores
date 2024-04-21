@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9FAB5C63-9A68-4A5C-89BE-52DF9BF411E8}|Projeto_Vendedores\\Projeto_Vendedores.csproj|c:\\users\\spook\\onedrive\\documentos\\visualstudioprojects\\projeto web\\projeto_vendedores\\projeto_vendedores\\services\\sellerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FAB5C63-9A68-4A5C-89BE-52DF9BF411E8}|Projeto_Vendedores\\Projeto_Vendedores.csproj|solutionrelative:projeto_vendedores\\services\\sellerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FAB5C63-9A68-4A5C-89BE-52DF9BF411E8}|Projeto_Vendedores\\Projeto_Vendedores.csproj|c:\\users\\spook\\onedrive\\documentos\\visualstudioprojects\\projeto web\\projeto_vendedores\\projeto_vendedores\\data\\projeto_vendedorescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FAB5C63-9A68-4A5C-89BE-52DF9BF411E8}|Projeto_Vendedores\\Projeto_Vendedores.csproj|solutionrelative:projeto_vendedores\\data\\projeto_vendedorescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FAB5C63-9A68-4A5C-89BE-52DF9BF411E8}|Projeto_Vendedores\\Projeto_Vendedores.csproj|c:\\users\\spook\\onedrive\\documentos\\visualstudioprojects\\projeto web\\projeto_vendedores\\projeto_vendedores\\interfaces\\isellerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FAB5C63-9A68-4A5C-89BE-52DF9BF411E8}|Projeto_Vendedores\\Projeto_Vendedores.csproj|solutionrelative:projeto_vendedores\\interfaces\\isellerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9FAB5C63-9A68-4A5C-89BE-52DF9BF411E8}|Projeto_Vendedores\\Projeto_Vendedores.csproj|c:\\users\\spook\\onedrive\\documentos\\visualstudioprojects\\projeto web\\projeto_vendedores\\projeto_vendedores\\controllers\\sellerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FAB5C63-9A68-4A5C-89BE-52DF9BF411E8}|Projeto_Vendedores\\Projeto_Vendedores.csproj|solutionrelative:projeto_vendedores\\controllers\\sellerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FAB5C63-9A68-4A5C-89BE-52DF9BF411E8}|Projeto_Vendedores\\Projeto_Vendedores.csproj|c:\\users\\spook\\onedrive\\documentos\\visualstudioprojects\\projeto web\\projeto_vendedores\\projeto_vendedores\\views\\sellers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9FAB5C63-9A68-4A5C-89BE-52DF9BF411E8}|Projeto_Vendedores\\Projeto_Vendedores.csproj|solutionrelative:projeto_vendedores\\views\\sellers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9FAB5C63-9A68-4A5C-89BE-52DF9BF411E8}|Projeto_Vendedores\\Projeto_Vendedores.csproj|c:\\users\\spook\\onedrive\\documentos\\visualstudioprojects\\projeto web\\projeto_vendedores\\projeto_vendedores\\views\\sellers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FAB5C63-9A68-4A5C-89BE-52DF9BF411E8}|Projeto_Vendedores\\Projeto_Vendedores.csproj|solutionrelative:projeto_vendedores\\views\\sellers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FAB5C63-9A68-4A5C-89BE-52DF9BF411E8}|Projeto_Vendedores\\Projeto_Vendedores.csproj|c:\\users\\spook\\onedrive\\documentos\\visualstudioprojects\\projeto web\\projeto_vendedores\\projeto_vendedores\\views\\sellers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -29,6 +17,30 @@
     {
       "AbsoluteMoniker": "D:0:0:{9FAB5C63-9A68-4A5C-89BE-52DF9BF411E8}|Projeto_Vendedores\\Projeto_Vendedores.csproj|c:\\users\\spook\\onedrive\\documentos\\visualstudioprojects\\projeto web\\projeto_vendedores\\projeto_vendedores\\views\\sellers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9FAB5C63-9A68-4A5C-89BE-52DF9BF411E8}|Projeto_Vendedores\\Projeto_Vendedores.csproj|solutionrelative:projeto_vendedores\\views\\sellers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FAB5C63-9A68-4A5C-89BE-52DF9BF411E8}|Projeto_Vendedores\\Projeto_Vendedores.csproj|c:\\users\\spook\\onedrive\\documentos\\visualstudioprojects\\projeto web\\projeto_vendedores\\projeto_vendedores\\views\\sellers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FAB5C63-9A68-4A5C-89BE-52DF9BF411E8}|Projeto_Vendedores\\Projeto_Vendedores.csproj|solutionrelative:projeto_vendedores\\views\\sellers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FAB5C63-9A68-4A5C-89BE-52DF9BF411E8}|Projeto_Vendedores\\Projeto_Vendedores.csproj|c:\\users\\spook\\onedrive\\documentos\\visualstudioprojects\\projeto web\\projeto_vendedores\\projeto_vendedores\\services\\sellerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FAB5C63-9A68-4A5C-89BE-52DF9BF411E8}|Projeto_Vendedores\\Projeto_Vendedores.csproj|solutionrelative:projeto_vendedores\\services\\sellerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FAB5C63-9A68-4A5C-89BE-52DF9BF411E8}|Projeto_Vendedores\\Projeto_Vendedores.csproj|c:\\users\\spook\\onedrive\\documentos\\visualstudioprojects\\projeto web\\projeto_vendedores\\projeto_vendedores\\interfaces\\isellerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FAB5C63-9A68-4A5C-89BE-52DF9BF411E8}|Projeto_Vendedores\\Projeto_Vendedores.csproj|solutionrelative:projeto_vendedores\\interfaces\\isellerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FAB5C63-9A68-4A5C-89BE-52DF9BF411E8}|Projeto_Vendedores\\Projeto_Vendedores.csproj|c:\\users\\spook\\onedrive\\documentos\\visualstudioprojects\\projeto web\\projeto_vendedores\\projeto_vendedores\\services\\exceptions\\dbconcurrencyexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FAB5C63-9A68-4A5C-89BE-52DF9BF411E8}|Projeto_Vendedores\\Projeto_Vendedores.csproj|solutionrelative:projeto_vendedores\\services\\exceptions\\dbconcurrencyexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FAB5C63-9A68-4A5C-89BE-52DF9BF411E8}|Projeto_Vendedores\\Projeto_Vendedores.csproj|c:\\users\\spook\\onedrive\\documentos\\visualstudioprojects\\projeto web\\projeto_vendedores\\projeto_vendedores\\services\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FAB5C63-9A68-4A5C-89BE-52DF9BF411E8}|Projeto_Vendedores\\Projeto_Vendedores.csproj|solutionrelative:projeto_vendedores\\services\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FAB5C63-9A68-4A5C-89BE-52DF9BF411E8}|Projeto_Vendedores\\Projeto_Vendedores.csproj|c:\\users\\spook\\onedrive\\documentos\\visualstudioprojects\\projeto web\\projeto_vendedores\\projeto_vendedores\\data\\projeto_vendedorescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FAB5C63-9A68-4A5C-89BE-52DF9BF411E8}|Projeto_Vendedores\\Projeto_Vendedores.csproj|solutionrelative:projeto_vendedores\\data\\projeto_vendedorescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FAB5C63-9A68-4A5C-89BE-52DF9BF411E8}|Projeto_Vendedores\\Projeto_Vendedores.csproj|c:\\users\\spook\\onedrive\\documentos\\visualstudioprojects\\projeto web\\projeto_vendedores\\projeto_vendedores\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -63,27 +75,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Projeto_VendedoresContext.cs",
-              "DocumentMoniker": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Data\\Projeto_VendedoresContext.cs",
-              "RelativeDocumentMoniker": "Projeto_Vendedores\\Data\\Projeto_VendedoresContext.cs",
-              "ToolTip": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Data\\Projeto_VendedoresContext.cs",
-              "RelativeToolTip": "Projeto_Vendedores\\Data\\Projeto_VendedoresContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T13:56:00.372Z",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Views\\Sellers\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Projeto_Vendedores\\Views\\Sellers\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Views\\Sellers\\Edit.cshtml",
+              "RelativeToolTip": "Projeto_Vendedores\\Views\\Sellers\\Edit.cshtml",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAACEAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-21T14:06:56.827Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Views\\Sellers\\Create.cshtml",
-              "RelativeDocumentMoniker": "Projeto_Vendedores\\Views\\Sellers\\Create.cshtml",
-              "ToolTip": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Views\\Sellers\\Create.cshtml",
-              "RelativeToolTip": "Projeto_Vendedores\\Views\\Sellers\\Create.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAAB4AAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T13:51:45.137Z",
+              "DocumentIndex": 8,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Services\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "Projeto_Vendedores\\Services\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Services\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "Projeto_Vendedores\\Services\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T13:36:46.063Z",
               "EditorCaption": ""
             },
             {
@@ -92,55 +104,106 @@
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Views\\Sellers\\Details.cshtml",
               "RelativeDocumentMoniker": "Projeto_Vendedores\\Views\\Sellers\\Details.cshtml",
-              "ToolTip": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Views\\Sellers\\Details.cshtml*",
-              "RelativeToolTip": "Projeto_Vendedores\\Views\\Sellers\\Details.cshtml*",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACgAAAAeAAAA",
+              "ToolTip": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Views\\Sellers\\Details.cshtml",
+              "RelativeToolTip": "Projeto_Vendedores\\Views\\Sellers\\Details.cshtml",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAACgAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-20T13:43:13.772Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Views\\Sellers\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Projeto_Vendedores\\Views\\Sellers\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Views\\Sellers\\Delete.cshtml",
-              "RelativeToolTip": "Projeto_Vendedores\\Views\\Sellers\\Delete.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACgAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-19T17:20:10.548Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "SellerService.cs",
               "DocumentMoniker": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Services\\SellerService.cs",
               "RelativeDocumentMoniker": "Projeto_Vendedores\\Services\\SellerService.cs",
-              "ToolTip": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Services\\SellerService.cs*",
-              "RelativeToolTip": "Projeto_Vendedores\\Services\\SellerService.cs*",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAAB8AAAAJAAAA",
+              "ToolTip": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Services\\SellerService.cs",
+              "RelativeToolTip": "Projeto_Vendedores\\Services\\SellerService.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADAAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-19T16:54:20.586Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "ISellerService.cs",
               "DocumentMoniker": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Interfaces\\ISellerService.cs",
               "RelativeDocumentMoniker": "Projeto_Vendedores\\Interfaces\\ISellerService.cs",
               "ToolTip": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Interfaces\\ISellerService.cs",
               "RelativeToolTip": "Projeto_Vendedores\\Interfaces\\ISellerService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-19T16:53:40.267Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Views\\Sellers\\Create.cshtml",
+              "RelativeDocumentMoniker": "Projeto_Vendedores\\Views\\Sellers\\Create.cshtml",
+              "ToolTip": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Views\\Sellers\\Create.cshtml",
+              "RelativeToolTip": "Projeto_Vendedores\\Views\\Sellers\\Create.cshtml",
+              "ViewState": "AQIAABAAAAAAAAAAAAAwwCMAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-20T13:51:45.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SellersController.cs",
+              "DocumentMoniker": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Controllers\\SellersController.cs",
+              "RelativeDocumentMoniker": "Projeto_Vendedores\\Controllers\\SellersController.cs",
+              "ToolTip": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Controllers\\SellersController.cs*",
+              "RelativeToolTip": "Projeto_Vendedores\\Controllers\\SellersController.cs*",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAAAFcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T21:11:09.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Views\\Sellers\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Projeto_Vendedores\\Views\\Sellers\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Views\\Sellers\\Delete.cshtml",
+              "RelativeToolTip": "Projeto_Vendedores\\Views\\Sellers\\Delete.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-19T17:20:10.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DbConcurrencyException.cs",
+              "DocumentMoniker": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Services\\Exceptions\\DbConcurrencyException.cs",
+              "RelativeDocumentMoniker": "Projeto_Vendedores\\Services\\Exceptions\\DbConcurrencyException.cs",
+              "ToolTip": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Services\\Exceptions\\DbConcurrencyException.cs",
+              "RelativeToolTip": "Projeto_Vendedores\\Services\\Exceptions\\DbConcurrencyException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T13:40:56.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "Projeto_VendedoresContext.cs",
+              "DocumentMoniker": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Data\\Projeto_VendedoresContext.cs",
+              "RelativeDocumentMoniker": "Projeto_Vendedores\\Data\\Projeto_VendedoresContext.cs",
+              "ToolTip": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Data\\Projeto_VendedoresContext.cs",
+              "RelativeToolTip": "Projeto_Vendedores\\Data\\Projeto_VendedoresContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T13:56:00.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Views\\Departments\\Delete.cshtml",
               "RelativeDocumentMoniker": "Projeto_Vendedores\\Views\\Departments\\Delete.cshtml",
@@ -152,20 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SellersController.cs",
-              "DocumentMoniker": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Controllers\\SellersController.cs",
-              "RelativeDocumentMoniker": "Projeto_Vendedores\\Controllers\\SellersController.cs",
-              "ToolTip": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Controllers\\SellersController.cs",
-              "RelativeToolTip": "Projeto_Vendedores\\Controllers\\SellersController.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAAAsAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T21:11:09.818Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "DepartmentsController.cs",
               "DocumentMoniker": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Controllers\\DepartmentsController.cs",
               "RelativeDocumentMoniker": "Projeto_Vendedores\\Controllers\\DepartmentsController.cs",
@@ -173,12 +223,11 @@
               "RelativeToolTip": "Projeto_Vendedores\\Controllers\\DepartmentsController.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAgwBAAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T13:43:38.532Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T13:43:38.532Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Seller.cs",
               "DocumentMoniker": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Models\\Seller.cs",
               "RelativeDocumentMoniker": "Projeto_Vendedores\\Models\\Seller.cs",
@@ -190,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "SellerFormViewModel.cs",
               "DocumentMoniker": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Models\\ViewModels\\SellerFormViewModel.cs",
               "RelativeDocumentMoniker": "Projeto_Vendedores\\Models\\ViewModels\\SellerFormViewModel.cs",

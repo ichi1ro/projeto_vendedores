@@ -8,5 +8,6 @@ namespace Projeto_Vendedores.Interfaces
         void Insert(Seller obj);
         Seller FindById(int id);
         void Remove(int id);
+        void Uptade(Seller seller);
     }
 }
