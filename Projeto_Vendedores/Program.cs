@@ -1,9 +1,11 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Localization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Projeto_Vendedores.Data;
 using Projeto_Vendedores.Services;
+using System.Globalization;
 namespace Projeto_Vendedores
 {
     public class Program
@@ -20,9 +22,16 @@ namespace Projeto_Vendedores
             builder.Services.AddScoped<SeedingService>();
             builder.Services.AddScoped<SellerService>();
             builder.Services.AddScoped<DepartmentService>();
-
+            var enUS = new CultureInfo("en-US");
+            var localizationOptions = new RequestLocalizationOptions
+            {
+                DefaultRequestCulture = new RequestCulture(enUS),
+                SupportedCultures = new List<CultureInfo> { enUS },
+                SupportedUICultures = new List<CultureInfo> { enUS }
+            };
             var app = builder.Build();
             SeedDatabase();
+            app.UseRequestLocalization(localizationOptions);
 
             void SeedDatabase()
             {

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -7,6 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Projeto_Vendedores.Data;
 using Projeto_Vendedores.Models;
+using Projeto_Vendedores.Models.ViewModels;
 
 namespace Projeto_Vendedores.Controllers
 {
@@ -70,13 +72,13 @@ namespace Projeto_Vendedores.Controllers
         {
             if (id == null)
             {
-                return NotFound();
+                return RedirectToAction(nameof(Error), new { message = "Id not provided" });
             }
 
             var department = await _context.Department.FindAsync(id);
             if (department == null)
             {
-                return NotFound();
+                RedirectToAction(nameof(Error), new { message = "Id not found" });
             }
             return View(department);
         }
@@ -90,7 +92,7 @@ namespace Projeto_Vendedores.Controllers
         {
             if (id != department.Id)
             {
-                return NotFound();
+                return RedirectToAction(nameof(Error), new { message = "Id not provided" });
             }
 
             if (ModelState.IsValid)
@@ -104,7 +106,7 @@ namespace Projeto_Vendedores.Controllers
                 {
                     if (!DepartmentExists(department.Id))
                     {
-                        return NotFound();
+                        return RedirectToAction(nameof(Error), new { message = "Id not found" });
                     }
                     else
                     {
@@ -121,14 +123,14 @@ namespace Projeto_Vendedores.Controllers
         {
             if (id == null)
             {
-                return NotFound();
+                return RedirectToAction(nameof(Error), new { message = "Id not provided" });
             }
 
             var department = await _context.Department
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (department == null)
             {
-                return NotFound();
+                return RedirectToAction(nameof(Error), new { message = "Id not found" });
             }
 
             return View(department);
@@ -152,6 +154,16 @@ namespace Projeto_Vendedores.Controllers
         private bool DepartmentExists(int id)
         {
             return _context.Department.Any(e => e.Id == id);
+        }
+
+        public IActionResult Error(string message)
+        {
+            var viewModel = new ErrorViewModel
+            {
+                RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier,
+                Message = message
+            };
+            return View(viewModel);
         }
     }
 }

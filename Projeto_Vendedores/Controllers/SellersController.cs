@@ -33,6 +33,10 @@ namespace Projeto_Vendedores.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(SellerFormViewModel obj)
         {
+            if (!ModelState.IsValid)
+            {
+                return View(obj);
+            }
             _sellerService.Insert(obj.Seller);
             return RedirectToAction(nameof(Index));
         }
@@ -75,6 +79,8 @@ namespace Projeto_Vendedores.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Edit(int id, SellerFormViewModel viewModel)
         {
+            if (!ModelState.IsValid)
+                return View(viewModel);
             if (id != viewModel.Seller.Id) return RedirectToAction(nameof(Error), new { message = "Id mismatch" });
             try
             {
