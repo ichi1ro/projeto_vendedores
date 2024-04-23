@@ -14,13 +14,9 @@ namespace Projeto_Vendedores.Services
             _context = context;
         }
 
-        public List<Department> FindAll()
+        public async Task<List<Department>> FindAllAsync()
         {
-            return _context.Department.OrderBy(d => d.Name).ToList();
-        }
-        public Department FindById(int id)
-        {
-            return _context.Department.FirstOrDefault(s => s.Id == id);
+            return await _context.Department.OrderBy(d => d.Name).ToListAsync();
         }
     }
 }

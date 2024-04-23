@@ -12,6 +12,7 @@ using Projeto_Vendedores.Models.ViewModels;
 
 namespace Projeto_Vendedores.Controllers
 {
+    //classe gerada com scaffolding, adicionado apenas a ação Error
     public class DepartmentsController : Controller
     {
         private readonly Projeto_VendedoresContext _context;
