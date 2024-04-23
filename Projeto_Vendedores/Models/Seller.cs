@@ -1,4 +1,5 @@
-﻿using Projeto_Vendedores.Migrations;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using Projeto_Vendedores.Migrations;
 using System.ComponentModel.DataAnnotations;
 using System.Numerics;
 
@@ -29,7 +30,9 @@ namespace Projeto_Vendedores.Models
         [DataType(DataType.Date)]
         public DateTime BirthDate { get; set; }
 
+        [ValidateNever]
         public Department Department { get; set; }
+        [Required(ErrorMessage="{0} Required")]
         public int DepartmentId { get; set; }
         public ICollection<SalesRecord> Sales { get; set; } = new List<SalesRecord>();
 

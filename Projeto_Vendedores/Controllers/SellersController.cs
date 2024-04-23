@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Projeto_Vendedores.Models;
 using Projeto_Vendedores.Models.ViewModels;
 using Projeto_Vendedores.Services;
@@ -25,16 +26,18 @@ namespace Projeto_Vendedores.Controllers
         public IActionResult Create()
         {
             var departments = _departmentService.FindAll();
-            var viewModel = new SellerFormViewModel { Departments = departments };
+            var viewModel = new SellerFormViewModel() { Departments = departments };
             return View(viewModel);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Create(SellerFormViewModel obj)
-        {
+        {   
             if (!ModelState.IsValid)
             {
+                var departments = _departmentService.FindAll();
+                obj.Departments = departments;
                 return View(obj);
             }
             _sellerService.Insert(obj.Seller);
