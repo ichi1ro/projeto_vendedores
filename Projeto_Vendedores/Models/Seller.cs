@@ -2,6 +2,7 @@
 using Projeto_Vendedores.Migrations;
 using System.ComponentModel.DataAnnotations;
 using System.Numerics;
+using System.Runtime.CompilerServices;
 
 namespace Projeto_Vendedores.Models
 {
@@ -28,6 +29,7 @@ namespace Projeto_Vendedores.Models
         [Required(ErrorMessage = "{0} required")]
         [Display(Name = "Birth Date")]
         [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}")]
         public DateTime BirthDate { get; set; }
 
         [ValidateNever]

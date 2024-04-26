@@ -22,6 +22,7 @@ namespace Projeto_Vendedores
             builder.Services.AddScoped<SeedingService>();
             builder.Services.AddScoped<SellerService>();
             builder.Services.AddScoped<DepartmentService>();
+            builder.Services.AddScoped<SalesRecordService>();
             var enUS = new CultureInfo("en-US");
             var localizationOptions = new RequestLocalizationOptions
             {
@@ -50,7 +51,7 @@ namespace Projeto_Vendedores
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            app.UseStaticFiles();
             app.UseRouting();
 
             app.UseAuthorization();

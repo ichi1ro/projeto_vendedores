@@ -32,9 +32,16 @@ namespace Projeto_Vendedores.Services
 
         public async Task RemoveAsync(int id)
         {
-            var obj = _context.Seller.Find(id);
-            _context.Seller.Remove(obj);
-            await _context.SaveChangesAsync();
+            try
+            {
+                var obj = await _context.Seller.FindAsync(id);
+                _context.Seller.Remove(obj);
+                await _context.SaveChangesAsync(); 
+            }
+            catch(DbUpdateException e)
+            {
+                throw new IntegrityException(e.Message);
+            }
         }
 
         public async Task UptadeAsync(Seller seller)

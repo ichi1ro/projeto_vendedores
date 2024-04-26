@@ -1,0 +1,52 @@
+﻿@model Projeto_Vendedores.Models.ViewModels.SalesRecordFormViewModel
+@{
+    ViewData["Title"] = "Edit";
+}
+<link rel="stylesheet" href="~/css/site.css" />
+
+<h1>@ViewData["Title"]</h1>
+<h4>Sale</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <input type="hidden" asp-for="SalesRecord.Id" />
+            <div class="form-group">
+                <label asp-for="SalesRecord.Date" class="form-label"></label>
+                <input asp-for="SalesRecord.Date" class="form-control" readonly="readonly" value="@ViewBag.Date.ToString("yyyy-MM-dd")" />
+                <span asp-validation-for="SalesRecord.Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SalesRecord.Amount" class="form-label"></label>
+                <input asp-for="SalesRecord.Amount" class="form-control" />
+                <span asp-validation-for="SalesRecord.Amount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Please select a Seller</label>
+                <select asp-for="SalesRecord.SellerId" asp-items="@(new SelectList(Model.Sellers,"Id", "Name"))" class="form-control" id="ddl"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="SalesRecord.Status" class="form-label"></label>
+                <select asp-for="SalesRecord.Status" asp-items="ViewBag.Status" class="form-control" id="ddl"></select>
+                <span asp-validation-for="SalesRecord.Status" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+                <a asp-action="Index">Back to Search</a>
+            </div>
+        </form>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#ddl").select2();
+        });
+    </script>
+}
