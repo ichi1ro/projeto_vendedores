@@ -3,8 +3,6 @@
 @{
     ViewData["Title"] = "Departments";
 }
-<link rel="stylesheet" href="~/css/site.css" />
-
 <h1>@ViewData["Title"]</h1>
 
 <p>
@@ -20,17 +18,18 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td class="align-content-center">
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-primary">Edit</a>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-primary">Details</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-primary">Delete</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

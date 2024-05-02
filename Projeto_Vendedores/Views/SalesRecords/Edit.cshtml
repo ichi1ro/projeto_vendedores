@@ -2,7 +2,6 @@
 @{
     ViewData["Title"] = "Edit";
 }
-<link rel="stylesheet" href="~/css/site.css" />
 
 <h1>@ViewData["Title"]</h1>
 <h4>Sale</h4>
@@ -22,7 +21,7 @@
                 <span asp-validation-for="SalesRecord.Amount" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label class="control-label">Please select a Seller</label>
+                <label class="form-label">Please select a Seller</label>
                 <select asp-for="SalesRecord.SellerId" asp-items="@(new SelectList(Model.Sellers,"Id", "Name"))" class="form-control" id="ddl"></select>
             </div>
             <div class="form-group">
@@ -31,8 +30,8 @@
                 <span asp-validation-for="SalesRecord.Status" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-                <a asp-action="Index">Back to Search</a>
+                <input type="submit" value="Save" class="btn btn-primary" asp-action="SimpleSearch"/>
+                <a asp-action="SimpleSearch">Back to Search</a>
             </div>
         </form>
     </div>

@@ -138,9 +138,46 @@ namespace Projeto_Vendedores.Controllers
             }
 
         }
-        public IActionResult SimpleSearch()
+        public async Task<IActionResult> SimpleSearch(DateTime? minDate, DateTime? maxDate, int? id, double? maxAmount, double? minAmount, string sellers, string status)
         {
-            return View();
+            minDate ??= await _salesRecordService.FindFirstSaleAsync(); //The null-coalescing assignment operator ??= assigns the value of its right-hand operand to its left-hand operand only if the left-hand operand evaluates to null.
+            maxDate ??= DateTime.Now;
+            minAmount ??= 0.0;
+            maxAmount ??= 70000.0;
+            int? sellerId = (sellers != null) ? int.Parse(sellers) : null;
+            int? saleStatus = (sellers != null) ? int.Parse(status) : null;
+            Dictionary<string, int> statusList = new Dictionary<string, int>()
+            {
+                {"All", -1},
+                {"Pending", 0 },
+                {"Billed", 1 },
+                {"Canceled", 2 }
+            };
+            string? errorMessage = (minDate > maxDate || minAmount > maxAmount) ? "The minimal values should not be grater than the maximum values" : null;
+            List<Seller> sellersList = await _sellerService.FindAllAsync();
+            sellersList.Add(new Seller(-1, "All", "", 0, DateTime.UtcNow, null));
+            ViewBag.ErrorMessage = errorMessage;
+            ViewBag.Sellers = new SelectList(sellersList.OrderBy(s => s.Id), "Id", "Name");
+            ViewBag.Status = new SelectList(statusList, "Value", "Key");
+            ViewBag.min = minDate;
+            ViewBag.max = maxDate;
+
+            var result = new List<SalesRecord>();
+            if (id.HasValue)
+            {
+                result.Add(await _salesRecordService.FindByIdAsync(id.Value));
+                return View(result);
+            }
+            result = await _salesRecordService.FindByDateAsync(minDate, maxDate);
+            result = result.Where(r => r.Amount >= minAmount && r.Amount <= maxAmount).ToList();
+
+            if (sellerId.HasValue && sellerId.Value != -1)
+                result = result.Where(r => r.SellerId == sellerId.Value).ToList();
+
+            if (saleStatus.HasValue && saleStatus.Value != -1)
+                result = result.Where(r => (int)r.Status == saleStatus.Value).ToList();
+
+            return View(result);
         }
         public IActionResult GroupingSearch()
         {

@@ -5,7 +5,6 @@
 @{
     ViewData["Title"] = "Details";
 }
-<link rel="stylesheet" href="~/css/site.css" />
 
 <h1>@ViewData["Title"]</h1>
 <div>
@@ -39,6 +38,6 @@
     </dl>
     <div>
         <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a>
-        <a asp-action="Index">Back to List</a>
+        <a asp-action="SimpleSearch">Back to Search</a>
     </div>
 </div>

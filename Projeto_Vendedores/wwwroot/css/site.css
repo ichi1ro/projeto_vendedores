@@ -23,3 +23,21 @@ body {
 .btn {
     margin: 12px 12px 12px 0px;
 }
+
+.container-fluid{
+    padding: 0px;
+}
+
+.custom-container {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    flex-grow: 1;
+    max-width: 100%;
+}
+@media(max-width:650px){
+    .custom-container{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

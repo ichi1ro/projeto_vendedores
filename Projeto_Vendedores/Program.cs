@@ -51,7 +51,6 @@ namespace Projeto_Vendedores
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-            app.UseStaticFiles();
             app.UseRouting();
 
             app.UseAuthorization();

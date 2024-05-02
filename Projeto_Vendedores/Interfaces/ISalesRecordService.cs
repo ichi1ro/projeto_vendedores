@@ -8,5 +8,8 @@ namespace Projeto_Vendedores.Interfaces
         Task<SalesRecord> FindByIdAsync(int id);
         Task RemoveAsync(int id);
         Task UptadeAsync(SalesRecord seller);
+
+        Task <List<SalesRecord>> FindByDateAsync(DateTime? minDate, DateTime? maxDate);
+        Task<DateTime> FindFirstSaleAsync();
     }
 }

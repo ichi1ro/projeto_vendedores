@@ -5,8 +5,6 @@
 @{
     ViewData["Title"] = "Create";
 }
-<link rel="stylesheet" href="~/css/site.css" />
-
 <h1>@ViewData["Title"]</h1>
 <h4>Seller</h4>
 <hr />
@@ -34,7 +32,7 @@
                 <span asp-validation-for="Seller.BaseSalary" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label class="control-label">Please select a Department</label>
+                <label class="form-label">Please select a Department</label>
                 <select asp-for="Seller.DepartmentId" asp-items="@(new SelectList(Model.Departments,"Id", "Name"))" class="form-control" id="ddl"></select>
             </div> 
             <div class="form-group">
