@@ -48,6 +48,44 @@ namespace Projeto_Vendedores.Services
             return await first;
         }
 
+        public List<SalesRecord> FindBySeller(int? id, List<SalesRecord> list)
+        {
+            var result = from obj in list select obj;
+            if (id.HasValue)
+            {
+                result = result.Where(s => s.SellerId == id.Value);
+            }
+            return result
+                .OrderByDescending(s => s.Date)
+                .ToList();
+        }
+        public List<SalesRecord> FindByStatus(int? status, List<SalesRecord> list)
+        {
+            var result = from obj in list select obj;
+            if (status.HasValue)
+            {
+                result = result.Where(s => (int)s.Status == status.Value);
+            }
+            return result
+                .OrderByDescending(s => s.Date)
+                .ToList();
+        }
+
+        public List<SalesRecord> FindByAmount(double? minAmount, double? maxAmount, List<SalesRecord> list)
+        {
+            var result = from obj in list select obj;
+            if (minAmount.HasValue)
+            {
+                result = result.Where(s => s.Amount >= minAmount.Value);
+            }  
+            if (maxAmount.HasValue)
+            {
+                result = result.Where(s => s.Amount <= maxAmount.Value);
+            }
+            return result
+                .OrderByDescending(s => s.Date)
+                .ToList();
+        }
         public async Task InsertAsync(SalesRecord obj)
         {
             _context.Add(obj);
@@ -81,5 +119,26 @@ namespace Projeto_Vendedores.Services
                 throw new DbConcurrencyException(e.Message);
             }
         }
+
+        public async Task<List<IGrouping<Department,SalesRecord>>> FindByDateGroupingAsync(DateTime? minDate, DateTime? maxDate)
+        {
+            var result = from obj in _context.SalesRecord select obj;
+            if (minDate.HasValue)
+            {
+                result = result.Where(s => s.Date >= minDate.Value);
+            }
+            if (maxDate.HasValue)
+            {
+                result = result.Where(s => s.Date <= maxDate.Value);
+            }
+            return await result
+                .Include(s => s.Seller)
+                .Include(s => s.Seller.Department)
+                .OrderByDescending(s => s.Date)
+                .GroupBy(s => s.Seller.Department)
+                .ToListAsync();
+        }
+
+      
     }
 }

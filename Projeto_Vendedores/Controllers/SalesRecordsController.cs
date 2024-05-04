@@ -138,11 +138,11 @@ namespace Projeto_Vendedores.Controllers
             }
 
         }
-        public async Task<IActionResult> SimpleSearch(DateTime? minDate, DateTime? maxDate, int? id, double? maxAmount, double? minAmount, string sellers, string status)
+        public async Task<IActionResult> SimpleSearch(DateTime? minDate, DateTime? maxDate, double? maxAmount, double? minAmount, string sellers, string status)
         {
             minDate ??= await _salesRecordService.FindFirstSaleAsync(); //The null-coalescing assignment operator ??= assigns the value of its right-hand operand to its left-hand operand only if the left-hand operand evaluates to null.
             maxDate ??= DateTime.Now;
-            minAmount ??= 0.0;
+            minAmount ??= 1.0;
             maxAmount ??= 70000.0;
             int? sellerId = (sellers != null) ? int.Parse(sellers) : null;
             int? saleStatus = (sellers != null) ? int.Parse(status) : null;
@@ -154,34 +154,41 @@ namespace Projeto_Vendedores.Controllers
                 {"Canceled", 2 }
             };
             string? errorMessage = (minDate > maxDate || minAmount > maxAmount) ? "The minimal values should not be grater than the maximum values" : null;
-            List<Seller> sellersList = await _sellerService.FindAllAsync();
-            sellersList.Add(new Seller(-1, "All", "", 0, DateTime.UtcNow, null));
+            var sellersList = await _sellerService.FindAllAsync();
+            var sellersSelectList = new List<Seller>(sellersList);
+            sellersSelectList.Add(new Seller(-1, "All", "", 0, DateTime.UtcNow, null));
             ViewBag.ErrorMessage = errorMessage;
-            ViewBag.Sellers = new SelectList(sellersList.OrderBy(s => s.Id), "Id", "Name");
+            ViewBag.Sellers = new SelectList(sellersSelectList.OrderBy(s => s.Id), "Id", "Name");
             ViewBag.Status = new SelectList(statusList, "Value", "Key");
             ViewBag.min = minDate;
             ViewBag.max = maxDate;
-
+            ViewBag.minAmount = minAmount;
+            ViewBag.maxAmount = maxAmount;
             var result = new List<SalesRecord>();
-            if (id.HasValue)
-            {
-                result.Add(await _salesRecordService.FindByIdAsync(id.Value));
-                return View(result);
-            }
             result = await _salesRecordService.FindByDateAsync(minDate, maxDate);
-            result = result.Where(r => r.Amount >= minAmount && r.Amount <= maxAmount).ToList();
+            result = _salesRecordService.FindByAmount(minAmount,maxAmount,result);
 
             if (sellerId.HasValue && sellerId.Value != -1)
-                result = result.Where(r => r.SellerId == sellerId.Value).ToList();
-
+            { 
+                result = _salesRecordService.FindBySeller(sellerId.Value, result);
+                ViewBag.Sellers = new SelectList(sellersSelectList.OrderBy(s => s.Id), "Id", "Name", sellerId.Value.ToString());
+            }   
             if (saleStatus.HasValue && saleStatus.Value != -1)
-                result = result.Where(r => (int)r.Status == saleStatus.Value).ToList();
+            {
+                result = _salesRecordService.FindByStatus(saleStatus.Value, result);
+                ViewBag.Status = new SelectList(statusList, "Value", "Key", saleStatus.Value.ToString());
+            }
 
             return View(result);
         }
-        public IActionResult GroupingSearch()
+        public async Task<IActionResult> GroupingSearch(DateTime? minDate, DateTime? maxDate)
         {
-            return View();
+            minDate ??= await _salesRecordService.FindFirstSaleAsync(); //The null-coalescing assignment operator ??= assigns the value of its right-hand operand to its left-hand operand only if the left-hand operand evaluates to null.
+            maxDate ??= DateTime.Now;
+            ViewBag.min = minDate.Value;
+            ViewBag.max = maxDate.Value;
+            var result = await _salesRecordService.FindByDateGroupingAsync(minDate, maxDate);
+            return View(result);
         }
 
         public IActionResult Error(string message)
