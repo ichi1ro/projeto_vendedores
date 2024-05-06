@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZTaFNH1YhoU8bw/hckoW8qGgUrWfBg3W+1uRTpYQIT7wmTkznJ6b1p0Ty6PPS82uuyni8FZvQo2B1zKYiA52qQ==",
+  "dgSpecHash": "tlIWmNKL+7hlM4FTfX8WYabEP3/UwQfAmbw0eZAygb32y4X8e+nM2tPjUQSPhZkPTAkUBMuWeZ183+yIGVvCtw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Projeto_Vendedores.csproj",
+  "projectFilePath": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\projeto_vendedores\\Projeto_Vendedores\\Projeto_Vendedores.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\spook\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\spook\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

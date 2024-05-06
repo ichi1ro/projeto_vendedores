@@ -138,7 +138,7 @@ namespace Projeto_Vendedores.Controllers
             }
 
         }
-        public async Task<IActionResult> SimpleSearch(DateTime? minDate, DateTime? maxDate, double? maxAmount, double? minAmount, string sellers, string status)
+        public async Task<IActionResult> SimpleSearch(DateTime? minDate, DateTime? maxDate, double? maxAmount, double? minAmount, string sellers, string status, int? id)
         {
             minDate ??= await _salesRecordService.FindFirstSaleAsync(); //The null-coalescing assignment operator ??= assigns the value of its right-hand operand to its left-hand operand only if the left-hand operand evaluates to null.
             maxDate ??= DateTime.Now;
@@ -165,6 +165,11 @@ namespace Projeto_Vendedores.Controllers
             ViewBag.minAmount = minAmount;
             ViewBag.maxAmount = maxAmount;
             var result = new List<SalesRecord>();
+            if (id.HasValue)
+            {
+                result.Add(await _salesRecordService.FindByIdAsync(id.Value));
+                return View(result);
+            }
             result = await _salesRecordService.FindByDateAsync(minDate, maxDate);
             result = _salesRecordService.FindByAmount(minAmount,maxAmount,result);
 

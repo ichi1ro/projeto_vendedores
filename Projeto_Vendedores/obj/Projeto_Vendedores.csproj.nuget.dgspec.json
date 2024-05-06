@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Projeto_Vendedores.csproj": {}
+    "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\projeto_vendedores\\Projeto_Vendedores\\Projeto_Vendedores.csproj": {}
   },
   "projects": {
-    "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Projeto_Vendedores.csproj": {
+    "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\projeto_vendedores\\Projeto_Vendedores\\Projeto_Vendedores.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Projeto_Vendedores.csproj",
+        "projectUniqueName": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\projeto_vendedores\\Projeto_Vendedores\\Projeto_Vendedores.csproj",
         "projectName": "Projeto_Vendedores",
-        "projectPath": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\Projeto_Vendedores.csproj",
+        "projectPath": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\projeto_vendedores\\Projeto_Vendedores\\Projeto_Vendedores.csproj",
         "packagesPath": "C:\\Users\\spook\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\spook\\OneDrive\\Documentos\\VisualStudioProjects\\Projeto Web\\Projeto_Vendedores\\Projeto_Vendedores\\obj\\",
         "projectStyle": "PackageReference",

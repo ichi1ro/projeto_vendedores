@@ -17,111 +17,111 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Projeto_Vendedores
 build_property.RootNamespace = Projeto_Vendedores
-build_property.ProjectDir = C:\Users\spook\OneDrive\Documentos\VisualStudioProjects\Projeto Web\Projeto_Vendedores\Projeto_Vendedores\
+build_property.ProjectDir = C:\Users\spook\OneDrive\Documentos\VisualStudioProjects\Projeto Web\projeto_vendedores\Projeto_Vendedores\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\spook\OneDrive\Documentos\VisualStudioProjects\Projeto Web\Projeto_Vendedores\Projeto_Vendedores
+build_property.MSBuildProjectDirectory = C:\Users\spook\OneDrive\Documentos\VisualStudioProjects\Projeto Web\projeto_vendedores\Projeto_Vendedores
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/Projeto_Vendedores/Projeto_Vendedores/Views/Departments/Create.cshtml]
+[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/projeto_vendedores/Projeto_Vendedores/Views/Departments/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/Projeto_Vendedores/Projeto_Vendedores/Views/Departments/Delete.cshtml]
+[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/projeto_vendedores/Projeto_Vendedores/Views/Departments/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/Projeto_Vendedores/Projeto_Vendedores/Views/Departments/Details.cshtml]
+[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/projeto_vendedores/Projeto_Vendedores/Views/Departments/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/Projeto_Vendedores/Projeto_Vendedores/Views/Departments/Edit.cshtml]
+[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/projeto_vendedores/Projeto_Vendedores/Views/Departments/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/Projeto_Vendedores/Projeto_Vendedores/Views/Departments/Index.cshtml]
+[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/projeto_vendedores/Projeto_Vendedores/Views/Departments/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/Projeto_Vendedores/Projeto_Vendedores/Views/Home/About.cshtml]
+[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/projeto_vendedores/Projeto_Vendedores/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/Projeto_Vendedores/Projeto_Vendedores/Views/Home/Index.cshtml]
+[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/projeto_vendedores/Projeto_Vendedores/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/Projeto_Vendedores/Projeto_Vendedores/Views/Home/Privacy.cshtml]
+[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/projeto_vendedores/Projeto_Vendedores/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/Projeto_Vendedores/Projeto_Vendedores/Views/SalesRecords/Create.cshtml]
+[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/projeto_vendedores/Projeto_Vendedores/Views/SalesRecords/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNSZWNvcmRzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/Projeto_Vendedores/Projeto_Vendedores/Views/SalesRecords/Delete.cshtml]
+[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/projeto_vendedores/Projeto_Vendedores/Views/SalesRecords/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNSZWNvcmRzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/Projeto_Vendedores/Projeto_Vendedores/Views/SalesRecords/Details.cshtml]
+[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/projeto_vendedores/Projeto_Vendedores/Views/SalesRecords/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNSZWNvcmRzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/Projeto_Vendedores/Projeto_Vendedores/Views/SalesRecords/Edit.cshtml]
+[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/projeto_vendedores/Projeto_Vendedores/Views/SalesRecords/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNSZWNvcmRzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/Projeto_Vendedores/Projeto_Vendedores/Views/SalesRecords/GroupingSearch.cshtml]
+[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/projeto_vendedores/Projeto_Vendedores/Views/SalesRecords/GroupingSearch.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNSZWNvcmRzXEdyb3VwaW5nU2VhcmNoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/Projeto_Vendedores/Projeto_Vendedores/Views/SalesRecords/Index.cshtml]
+[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/projeto_vendedores/Projeto_Vendedores/Views/SalesRecords/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNSZWNvcmRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/Projeto_Vendedores/Projeto_Vendedores/Views/SalesRecords/SimpleSearch.cshtml]
+[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/projeto_vendedores/Projeto_Vendedores/Views/SalesRecords/SimpleSearch.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNSZWNvcmRzXFNpbXBsZVNlYXJjaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/Projeto_Vendedores/Projeto_Vendedores/Views/Sellers/Create.cshtml]
+[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/projeto_vendedores/Projeto_Vendedores/Views/Sellers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsbGVyc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/Projeto_Vendedores/Projeto_Vendedores/Views/Sellers/Delete.cshtml]
+[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/projeto_vendedores/Projeto_Vendedores/Views/Sellers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsbGVyc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/Projeto_Vendedores/Projeto_Vendedores/Views/Sellers/Details.cshtml]
+[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/projeto_vendedores/Projeto_Vendedores/Views/Sellers/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsbGVyc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/Projeto_Vendedores/Projeto_Vendedores/Views/Sellers/Edit.cshtml]
+[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/projeto_vendedores/Projeto_Vendedores/Views/Sellers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsbGVyc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/Projeto_Vendedores/Projeto_Vendedores/Views/Sellers/Index.cshtml]
+[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/projeto_vendedores/Projeto_Vendedores/Views/Sellers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsbGVyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/Projeto_Vendedores/Projeto_Vendedores/Views/Shared/Error.cshtml]
+[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/projeto_vendedores/Projeto_Vendedores/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/Projeto_Vendedores/Projeto_Vendedores/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/projeto_vendedores/Projeto_Vendedores/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/Projeto_Vendedores/Projeto_Vendedores/Views/_ViewImports.cshtml]
+[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/projeto_vendedores/Projeto_Vendedores/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/Projeto_Vendedores/Projeto_Vendedores/Views/_ViewStart.cshtml]
+[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/projeto_vendedores/Projeto_Vendedores/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/Projeto_Vendedores/Projeto_Vendedores/Views/Shared/_Layout.cshtml]
+[C:/Users/spook/OneDrive/Documentos/VisualStudioProjects/Projeto Web/projeto_vendedores/Projeto_Vendedores/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-wvr3n8jg8w
